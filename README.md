@@ -1,5 +1,9 @@
 # stockpredition-app
 
+This application is an extension of thorough data gathering project, merging information from several different vendors and databases regarding trading of the ticker symbol SPY (S&P 500 SPYDR ETF) during a period from 2019-2021. The data is located in a .csv file which was used in the original research project that can be found on the main Github page in a pdf file. 
+
+This application works to leverage exploratory data analysis through univariate and multiple variable visulizations, along with a reapproach to the final model dervied from the original research. This time the final model works in a quantitative (numerical) fashion with predictors and outputs, whereas the original model relied on ordinal outputs and inputs in addition to numerical data. The variables of interest are identical in the models, they have just been reduced back to thier non-discretized numerical form. 
+
 # 1. Download the Final_Application.R File from github
 
 		https://github.com/wildcatjayhawk/DATA-824/blob/8570be3b709d00c9ac24bbda15ff832db9372171/Final_Application.R
