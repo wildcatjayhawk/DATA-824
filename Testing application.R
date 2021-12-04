@@ -10,6 +10,7 @@ library(randomForest)
 #Read Data
 stock_dat <- read.csv(text = getURL("https://raw.githubusercontent.com/wildcatjayhawk/DATA-824/main/spy_all_data_6.7.csv"))
 
+#Least squares model used
 model1 <- lm(OC_per_change ~ prev_OC_per_change + p_rel_vol_wk_3mo, data = stock_dat)
 
 #stock_dat
