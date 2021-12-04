@@ -6,7 +6,7 @@ This application works to leverage exploratory data analysis through univariate 
 
 # 1. Download the Final_Application.R File from github
 
-		https://github.com/wildcatjayhawk/DATA-824/blob/8570be3b709d00c9ac24bbda15ff832db9372171/Final_Application.R
+	https://github.com/wildcatjayhawk/DATA-824/blob/8570be3b709d00c9ac24bbda15ff832db9372171/Final_Application.R
 
 # 2. Launch R Studio 
 
@@ -14,11 +14,15 @@ This application works to leverage exploratory data analysis through univariate 
 
 # 4. Make sure all libraries listed at top of the .R file are installed
 	
-	Any non-installed applications can be installed via the command:
+	i. Any non-installed applications can be installed via the command:
+	
+		```
+		#Run in R Studio
 		
-			> install.packages("PackageName")
-			
-	Where, PackageName is the name of the library you are missing. 
+		> install.packages("PackageName")
+		
+		```
+		* (Where, PackageName is the name of the library you are missing)
 		
 # 5. Run the application within R Studio by either clicking the "Run" icon or by selecting all the code and pressing "cmd + enter". 
 
